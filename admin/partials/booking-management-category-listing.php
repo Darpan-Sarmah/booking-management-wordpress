@@ -75,7 +75,7 @@ $category_results = $dbhandler->get_all_result($cat_identifier, '*', 1, 'results
             } else { ?>
                 <td></td>
                 <td></td>
-                <td><p><b><?php esc_html_e('No Categories Found', 'service-booking'); ?></b></p></td>
+                <td style="text-align: center;font-size: 14px"><b><?php esc_html_e('No Categories Found', 'service-booking'); ?></b></td>
                 <td></td>
                 <?php } ?>
         </tbody>

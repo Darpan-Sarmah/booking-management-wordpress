@@ -75,9 +75,9 @@ $service_results = $dbhandler->get_all_result($svc_identifier, '*', 1, 'results'
             } else { ?>
                 <td></td>
                 <td></td>
+                <td style="text-align: center;font-size: 14px"><b><?php esc_html_e('No Services Found', 'service-booking'); ?></b></td>
                 <td></td>
-                <td></td>
-                <td><p><b><?php esc_html_e('No Services Found', 'service-booking'); ?></p></b></td><td></td><?php } ?>
+                <?php } ?>
         </tbody>
     </table>
 </div>
